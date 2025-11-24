@@ -23,11 +23,14 @@ public class MenuManager : MonoBehaviour
         
     }
 
-    private void NewGame() { SceneManager.LoadScene("StartArea"); }
+    private void NewGame()
+    {
+        SceneManager.LoadScene("StartArea");
+    }
 
     private void ExitGame()
     {
-        // EditorApplication.isPlaying = false;
+        EditorApplication.isPlaying = false;
         Application.Quit();
     }
 
