@@ -27,7 +27,7 @@ public class MenuManager : MonoBehaviour
 
     private void ExitGame()
     {
-        EditorApplication.isPlaying = false;
+        // EditorApplication.isPlaying = false;
         Application.Quit();
     }
 
